@@ -1,0 +1,63 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`unit:u > children builder > should build parent 1`] = `
+{
+  "children": [],
+  "type": "root",
+}
+`;
+
+exports[`unit:u > properties builder > should build node 1`] = `
+{
+  "type": "undefined",
+  "value": undefined,
+}
+`;
+
+exports[`unit:u > should build leaf if builder is undefined 1`] = `
+{
+  "type": "root",
+}
+`;
+
+exports[`unit:u > value builder > RegExp > should build literal 1`] = `
+{
+  "type": "regexp",
+  "value": /\\^node:/,
+}
+`;
+
+exports[`unit:u > value builder > bigint > should build literal 1`] = `
+{
+  "type": "bigint",
+  "value": 3n,
+}
+`;
+
+exports[`unit:u > value builder > boolean > should build literal 1`] = `
+{
+  "type": "boolean",
+  "value": true,
+}
+`;
+
+exports[`unit:u > value builder > null > should build literal 1`] = `
+{
+  "type": "null",
+  "value": null,
+}
+`;
+
+exports[`unit:u > value builder > number > should build literal 1`] = `
+{
+  "type": "number",
+  "value": 3,
+}
+`;
+
+exports[`unit:u > value builder > string > should build literal 1`] = `
+{
+  "type": "string",
+  "value": "node",
+}
+`;

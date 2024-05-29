@@ -1,6 +1,6 @@
 {
   "name": "@flex-development/unist-util-builder",
-  "description": "unist utility to create trees",
+  "description": "unist utility to build trees",
   "version": "1.0.0",
   "keywords": [
     "ast",
@@ -86,6 +86,7 @@
     "@commitlint/types": "19.0.3",
     "@flex-development/commitlint-config": "1.0.1",
     "@flex-development/decorator-regex": "2.0.0",
+    "@flex-development/docast": "1.0.0-alpha.17",
     "@flex-development/esm-types": "2.0.0",
     "@flex-development/grease": "3.0.0-alpha.9",
     "@flex-development/mkbuild": "1.0.0-alpha.23",
@@ -97,6 +98,7 @@
     "@types/chai": "4.3.16",
     "@types/eslint": "8.56.10",
     "@types/is-ci": "3.0.4",
+    "@types/mdast": "4.0.4",
     "@types/node": "20.12.12",
     "@types/node-notifier": "8.0.5",
     "@typescript-eslint/eslint-plugin": "7.11.0",
@@ -144,6 +146,7 @@
     "yaml-eslint-parser": "1.2.3"
   },
   "resolutions": {
+    "@types/mdast": "4.0.4",
     "chai": "5.1.1"
   },
   "engines": {

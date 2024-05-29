@@ -1,5 +1,6 @@
 attw
 cefc
+codecov
 commitlintrc
 dedupe
 deno
@@ -14,6 +15,7 @@ gpgsign
 hmarr
 jchen
 kaisugi
+lcov
 lintstagedrc
 mdast
 mkbuild

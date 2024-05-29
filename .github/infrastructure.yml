@@ -168,7 +168,7 @@ repository:
   automated_security_fixes: true
   default_branch: main
   delete_branch_on_merge: true
-  description: unist utility to create trees
+  description: unist utility to build trees
   has_issues: true
   has_projects: true
   has_wiki: false
