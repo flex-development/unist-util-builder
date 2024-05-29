@@ -13,7 +13,13 @@ import type { Node } from 'unist'
 import type BuilderValue from './builder-value'
 
 /**
- * Union of types used to build a node.
+ * Union of node children, properties, and value.
+ *
+ * @see {@linkcode BuilderValue}
+ * @see {@linkcode MatchChildren}
+ * @see {@linkcode MatchProperties}
+ * @see {@linkcode MatchValue}
+ * @see {@linkcode Type}
  *
  * @template {Node} [N=Node] - Node to build
  */

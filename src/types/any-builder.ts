@@ -8,7 +8,7 @@ import type BuilderProps from './builder-props'
 import type BuilderValue from './builder-value'
 
 /**
- * Union of types used to build any node.
+ * Union of types that can be used to build any node.
  *
  * @see {@linkcode BuilderChildren}
  * @see {@linkcode BuilderProps}
