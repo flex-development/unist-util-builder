@@ -24,7 +24,7 @@
     - [`u(type, properties)`](#utype-properties)
     - [`u(type, value`](#utype-value)
   - [`AnyBuilder`](#anybuilder)
-  - [`Builder<T>`](#buildert)
+  - [`Builder<[T]>`](#buildert)
   - [`BuilderChildren<[T]>`](#builderchildrent)
   - [`BuilderProps`](#builderprops)
   - [`BuilderValue`](#buildervalue)
@@ -214,7 +214,7 @@ Union of types that can be used to build any node (TypeScript type).
 type AnyBuilder = BuilderChildren | BuilderProps | BuilderValue
 ```
 
-### `Builder<T>`
+### `Builder<[T]>`
 
 Union of node children, properties, and value (TypeScript type).
 
