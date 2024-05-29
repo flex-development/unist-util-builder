@@ -20,6 +20,7 @@
 - [Use](#use)
 - [API](#api)
 - [Types](#types)
+- [Related](#related)
 - [Contribute](#contribute)
 
 ## What is this?
@@ -73,6 +74,10 @@ In browsers with [`esm.sh`][esmsh]:
 
 This package is fully typed with [TypeScript][typescript].
 
+## Related
+
+- [`esast-util-builder`][esast-util-builder] &mdash; build [esast][esast] nodes
+
 ## Contribute
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md).
@@ -80,6 +85,8 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 This project has a [code of conduct](CODE_OF_CONDUCT.md). By interacting with this repository, organization, or
 community you agree to abide by its terms.
 
+[esast-util-builder]: https://github.com/flex-development/esast-util-builder
+[esast]: https://github.com/flex-development/esast
 [esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 [esmsh]: https://esm.sh/
 [tree]: https://github.com/syntax-tree/unist#tree
