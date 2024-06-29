@@ -23,12 +23,6 @@ describe('unit:u', () => {
   })
 
   describe('value builder', () => {
-    describe('RegExp', () => {
-      it('should build literal', () => {
-        expect(testSubject('regexp', /^node:/)).toMatchSnapshot()
-      })
-    })
-
     describe('bigint', () => {
       it('should build literal', () => {
         expect(testSubject('bigint', 3n)).toMatchSnapshot()

@@ -6,10 +6,6 @@
 import type TestSubject from '../builder-value'
 
 describe('unit-d:types/BuilderValue', () => {
-  it('should extract RegExp', () => {
-    expectTypeOf<TestSubject>().extract<RegExp>().not.toBeNever()
-  })
-
   it('should extract bigint', () => {
     expectTypeOf<TestSubject>().extract<bigint>().not.toBeNever()
   })

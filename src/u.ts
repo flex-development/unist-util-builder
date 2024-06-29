@@ -73,7 +73,6 @@ function u<T extends Type, Properties extends BuilderProps = BuilderProps>(
  *
  * The following types can be used as builder values:
  *
- * - `RegExp`
  * - `bigint`
  * - `boolean`
  * - `number`
@@ -109,7 +108,6 @@ function u<T extends Type, Value extends BuilderValue = BuilderValue>(
  *
  * The following types can be used as builder values:
  *
- * - `RegExp`
  * - `bigint`
  * - `boolean`
  * - `number`
@@ -139,7 +137,6 @@ function u<T extends Node = Node>(type: Type<T>, builder?: Builder<T>): T
  *
  * The following types can be used as builder values:
  *
- * - `RegExp`
  * - `bigint`
  * - `boolean`
  * - `number`
@@ -170,11 +167,7 @@ function u(type: string, builder?: AnyBuilder): Literal | Node | Parent {
   if (builder !== undefined) {
     if (Array.isArray(builder)) {
       ;(<Parent>node).children = builder
-    } else if (
-      !(builder instanceof RegExp) &&
-      typeof builder === 'object' &&
-      builder !== null
-    ) {
+    } else if (typeof builder === 'object' && builder !== null) {
       /**
        * Node properties.
        *

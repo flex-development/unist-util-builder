@@ -20,13 +20,6 @@ exports[`unit:u > should build leaf if builder is undefined 1`] = `
 }
 `;
 
-exports[`unit:u > value builder > RegExp > should build literal 1`] = `
-{
-  "type": "regexp",
-  "value": /\\^node:/,
-}
-`;
-
 exports[`unit:u > value builder > bigint > should build literal 1`] = `
 {
   "type": "bigint",

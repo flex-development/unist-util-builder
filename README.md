@@ -182,7 +182,6 @@ Build a node using a properties object.
 
 Create a [*literal*][literal].
 
-- `RegExp`
 - `bigint`
 - `boolean`
 - `number`
@@ -254,7 +253,7 @@ Union of values that can be used to build a [literal][literal] (TypeScript type)
 > a void node (a node with only a `type` field).
 
 ```ts
-type BuilderValue = RegExp | bigint | boolean | number | string | null
+type BuilderValue = bigint | boolean | number | string | null
 ```
 
 ## Types

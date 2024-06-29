@@ -12,6 +12,6 @@
  *
  * [literal]: https://github.com/syntax-tree/unist#literal
  */
-type BuilderValue = RegExp | bigint | boolean | number | string | null
+type BuilderValue = bigint | boolean | number | string | null
 
 export type { BuilderValue as default }
