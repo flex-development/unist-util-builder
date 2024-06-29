@@ -116,7 +116,7 @@ export const load = async (url, context) => {
       minify: false,
       sourcefile: fileURLToPath(url),
       sourcemap: 'inline',
-      target: `node${process.versions.node}`,
+      target: [`node${process.versions.node}`, tsconfig.compilerOptions.target],
       tsconfigRaw: { compilerOptions: tsconfig.compilerOptions }
     })
 
